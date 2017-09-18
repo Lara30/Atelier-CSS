@@ -1,37 +1,56 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Maquette</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Maquette</title>
+    <script src="https://use.fontawesome.com/75764ff123.js"></script>
+    <script src="https://use.fontawesome.com/9822a089b7.js"></script>
+    <script src="https://use.fontawesome.com/6fec65462e.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
-    <div class="container">
-    <a class="navbar-brand" href="#">Wikicoda</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="nav justify-content-end ml-auto">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Accueil</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">A propos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Portfolio</a>
+
+<header>
+    <div class="container-fluid navbar-inverse" >
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#"><b>WikiC</b>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <b>da</b>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="but_pink"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
+                <li class="but_white"><a href="#">A Propos</a></li>
+                <li class="but_white"><a href="#">Service</a></li>
+                <li class="but_white"><a href="#">Portfolio</a></li>
+                <li class="but_white"><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+            </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>-->
+                <ul class="dropdown-menu">
+                    <li class="but_white"><a href="#">A Propos</a></li>
+                    <li class="but_white"><a href="#">Service</a></li>
+                    <li class="but_white"><a href="#">Portfolio</a></li>
+                    <li class="but_white"><a href="#">Contact</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
             </li>
         </ul>
     </div>
     </div>
-</nav>
+</header>
 
 <div class="jumbo">
         <div class="container">
@@ -45,16 +64,19 @@
 <section class="container">
 <div class="row art2">
     <div class="col-6 col-md-4">
+        <i class="fa fa-heart icones fa-3x" aria-hidden="true"></i>
         <h3>DESIGN</h3>
         <p>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae.
             Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p>
     </div>
     <div class="col-6 col-md-4">
+        <i class="fa fa-laptop icones fa-3x" aria-hidden="true"></i>
         <h3>SITES</h3>
         <lorem>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae.
             Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</lorem>
     </div>
     <div class="col-6 col-md-4">
+        <i class="fa fa-trophy icones fa-3x" aria-hidden="true"></i>
         <h3>SUPPORT</h3>
         <lorem>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae.
             Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</lorem>
@@ -76,16 +98,19 @@
 
 <section class="art4">
     <h2>Lorem ipsum dolor sit</h2>
+    <div class="row">
     <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
-        Voluptatum ducimus voluptates voluptas?
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cupiditate deleniti eius eligendi eveniet<br>
+            facilis hic id ipsum iusto labore nostrum numquam perspiciatis, praesentium quibusdam repudiandae temporibus.
         </p>
         <img src="images/munter.png" height="auto" width="600"/>
     </div>
+    </div>
 </section>
+
 <section class="art5">
     <h2>NOS CLIENTS</h2>
-    <div class="container">
+    <div class="container images">
         <img src="images/c01.gif" height="200" width="170"/>
         <img src="images/c02.gif" height="200" width="170"/>
         <img src="images/c03.gif" height="200" width="170"/>
@@ -93,8 +118,29 @@
         <img src="images/c05.gif" height="200" width="170"/>
     </div>
 </section>
+
+<section class="art6">
+    <h2>Lorem ipsum dolor sit. </h2>
+    <div class="container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>A error esse neque porro possimus, quo reprehenderit sapiente.
+    </p>
+    </div>
+</section>
 </body>
+
 <footer>
-    <p class="footer">Footer</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-4">
+            <i class="fa fa-twitter fa-2x liens" aria-hidden="true"></i>
+        </div>
+            <div class="col-6 col-md-4">
+            <i class="fa fa-facebook fa-2x liens" aria-hidden="true"></i>
+        </div>
+        <div class="col-6 col-md-4">
+            <i class="fa fa-dribbble fa-2x liens" aria-hidden="true"></i>
+        </div>
+        </div>
+    </div>
 </footer>
 </html>

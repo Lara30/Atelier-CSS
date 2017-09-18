@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    color: #2D2D2D;
+}
+.navbar-brand{
+    color: #96877F;
+    text-align: center;
+}
+.navbar-brand b:hover {
+    color: #FFFFFF;
+}
+b {
+    color:dimgrey;
+}
+
+i.fa.fa-circle {
+    color:#FE7877;
+}
+
+li a{
+    color: #96877F;
+}
+.but_pink {
+    background-color: #FE7877;
+}
+li a:hover {
+    color: #FFFFFF;
+}
+.glyphicon-envelope {
+    color: #96877F;
+}
+.glyphicon-envelope:hover {
+    color: #FFFFFF;
+}
+.collapse.navbar-collapse.navHeaderCollapse {
+    text-align: center;
+}
+ .jumbo{
+     background-color: yellow;
+     background-image: url(../images/header-bg.jpg);
+     width:100%;
+     height: 350px;
+}
+.art1{
+    height:300px;
+    color: white;
+    padding-top:50px;
+    text-align: center;
+}
+.lead {
+    color: white;
+}
+.row.art2 {
+    width: 100%;
+}
+.row {
+    padding-top: 20px;
+    text-align: center;
+}
+.art2 {
+    padding-top: 65px;
+    padding-bottom: 20px;
+    background-color: #F2F2F2;
+}
+.icones {
+    color:#FE7877;
+}
+.art3 {
+    padding-top: 30px;
+    padding-bottom:30px;
+    text-align: center;
+    background-color: #E0E0E0;
+}
+.art4 {
+    padding-top:20px;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+p {
+    padding-top:10px;
+}
+.art5 {
+    padding-top:40px;
+    text-align: center;
+    background-color: #EBEBEB;
+}
+
+.art6 {
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align: center;
+    background-color:#FE7877;
+}
+footer {
+    padding-top:30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #F1F8FF;
+    color: #96877F;
+}
+.liens {
+    text-align: center;
+    color: #96877F;
+}
+.liens:hover {
+    color: #FFFFFF;
+}
